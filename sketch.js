@@ -80,7 +80,7 @@ function draw() {
         gameState=END;
       
       //create a sprite
-        GameOver = createSprite(GameOverImg);
+        GameOver = createSprite(200,250,20);//(GameOverImg);
       //add a animation for gameover
         GameOver.addImage(GameOverImg);     
       //scale the gameover image
